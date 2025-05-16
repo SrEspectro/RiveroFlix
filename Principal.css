@@ -1,0 +1,153 @@
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    max-width: 100%;
+}
+
+header {
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    color: white; 
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+#opcoes {
+    width: 200px;
+    height: 300px;
+    background-color: #CBB444;
+    opacity: 0%;
+    position: absolute;
+    margin-left: 1700px; 
+    top:-200px;
+    transition: 1.2s;
+}
+
+#opcoes a {
+    color: whitesmoke;
+    text-align: center;
+    bottom: 100px;
+    font-size: larger;
+    text-decoration: underline;
+    padding: 21px;
+}
+
+header #menu {
+    transition: transform 0.4;
+    width: 70px;
+    height: 40px;
+    margin-left: 1700px; 
+}
+
+#opcoes:hover {
+    opacity: 100%;
+    top: 0px;
+}
+
+button {
+    
+    padding: 15px;
+    width: 150px;
+    background-color: #CBB444;
+    border-radius: 15px;
+    color: whitesmoke;
+    transition: transform 0.4s ease;
+}
+
+#logar{
+    color: whitesmoke;
+    text-decoration: solid;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 20px;
+}
+
+h1 {
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 1px solid rgba(218, 165, 32, 0.377);
+    padding: 5px 0;
+}
+
+section {
+    display: flex;
+    gap: 10px;
+}
+
+table{
+    border: 1px solid rgba(218, 165, 32, 0.377);
+    padding: 10px;
+    text-align: center;
+    font-size: 21px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 7px;
+    
+}
+
+tr {
+    width: 4000px;
+}
+
+table img:hover{
+    transform: scale(1.2);
+    background-color: #CBB444;
+    box-shadow: 0px 0px 110px  #CBB444;
+}
+
+#filme {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+strong {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#linkFilmes {
+    display: block;
+    margin: 2px 0;
+    font-size: 0.85rem;
+    color: rgba(218, 165, 32, 0.829);
+}
+
+footer {
+    background-color: rgb(12, 12, 12); 
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+#sobre {
+   text-align: left; 
+}
+
+footer p {
+    margin: 10px;
+}

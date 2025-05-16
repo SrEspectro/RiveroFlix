@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+ 
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ 
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 1500px;
+    text-align: center;
+   
+}
+ 
+header img {
+    width: 100px;
+}
+ 
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+ 
+header nav a:hover {
+    color: rgba(218, 165, 32, 0.829);
+   
+}
+ 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+ 
+.Imagem img {
+    margin-top: 91px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.829);
+    margin-right: 130px;
+}
+img{
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        border: 1px solid black;
+}
+img:hover{
+    background-color: #CBB444;
+    box-shadow: 0px 0px 110px  #CBB444;
+    transform: scale(1.2);
+}
+ 
+.conteudo {
+    margin-top: 35px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+h1 {
+    color: rgba(218, 165, 32, 0.829);
+}
+ 
+section {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+section h2 {
+    color: rgba(218, 165, 32, 0.829);
+}
+ 
+ul {
+    padding-left: 20px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+}
+ul{
+    margin-top: 7px;
+}
+footer {
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
